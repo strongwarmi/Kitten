@@ -4,13 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="css/main.css">
   <title>Leccion 32 - Ejercicio Kitten</title>
 </head>
 <body>
-  <picture>
-    <source media="">
-    <source>
-  </picture>
+  <div class="container">
+    <picture class="cat">
+      <source srcset="assets/img/kitten-medium.png" media="(min-width: 726px)" >
+      <source srcset="assets/img/kitten-large.png" media="(min-width: 465px)" >
+      <img  id="img-cat" src="assets/img/kitten-small.png">
+  </div>
 </body>
 </html>
